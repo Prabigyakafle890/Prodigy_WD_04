@@ -62,8 +62,9 @@
     margin: 0;
 }
 
+
 .profile-picture {
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px; 
 }
 
 .profile-picture img {
@@ -88,11 +89,11 @@
 		height: 55%;
 		width: 40%;
 		border-radius: 5%;
-		/* margin-right:10px;  */
+		
 	}
 	
 	#details {
-		max-width: 80%;
+		max-width: 100%;
 		font-size:18px;
     font-weight: 350;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -207,13 +208,11 @@ line-height: 0.4;
 .contact-icons i{
 	margin-right: 7px;
 }
-/* Add these styles to your styles.css file */
+
 .menu-toggle {
     display: none;
     cursor: pointer;
 }
-
-/* Styling for the hamburger bars */
 .bar {
     display: block;
     width: 25px;
@@ -242,8 +241,8 @@ li {
     margin: 0 15px;
 }
 
-/* Media query to show/hide the hamburger menu based on screen size */
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 700px) {
     .menu-toggle {
         display: block;
     }
