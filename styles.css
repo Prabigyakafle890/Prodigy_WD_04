@@ -241,6 +241,9 @@ li {
     margin: 0 15px;
 }
 @media screen and (max-width: 600px) {
+	header{
+		background-size: cover;
+	}
     header nav {
         flex-direction: column;
         text-align: center;
