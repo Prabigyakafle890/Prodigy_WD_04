@@ -273,13 +273,42 @@ li {
         margin-bottom: 5px; 
     }
 }
+/* Add this style in your styles.css file */
+.download-cv-button {
+  margin-top: 20px;
+}
+
+.download-cv-button button {
+  background-color: #677dcd;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+}
+
+.download-cv-button button:hover {
+  background-color:#0c38d7;
+}
+#project1_image,#project2_image{
+  height:200px;
+  width:200px;
+  border-radius: 15px;
+  margin-left: 200px;
+}
 
 
 
 
 
 
-
+#project1, #project2{
+  margin-top: 2px;
+  margin-left: 250px;
+}
 
 /* @media screen and (max-width: 700px) {
     .menu-toggle {
